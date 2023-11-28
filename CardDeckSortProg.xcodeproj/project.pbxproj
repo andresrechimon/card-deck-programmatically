@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		830C6F6D2B15247A007A3626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C6F6C2B15247A007A3626 /* AppDelegate.swift */; };
 		830C6F6F2B15247A007A3626 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C6F6E2B15247A007A3626 /* SceneDelegate.swift */; };
-		830C6F712B15247A007A3626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C6F702B15247A007A3626 /* ViewController.swift */; };
-		830C6F742B15247A007A3626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830C6F722B15247A007A3626 /* Main.storyboard */; };
 		830C6F762B15247B007A3626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830C6F752B15247B007A3626 /* Assets.xcassets */; };
 		830C6F792B15247B007A3626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830C6F772B15247B007A3626 /* LaunchScreen.storyboard */; };
-		830C6F842B15247B007A3626 /* CardDeckSortProgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C6F832B15247B007A3626 /* CardDeckSortProgTests.swift */; };
-		830C6F8E2B15247B007A3626 /* CardDeckSortProgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C6F8D2B15247B007A3626 /* CardDeckSortProgUITests.swift */; };
-		830C6F902B15247B007A3626 /* CardDeckSortProgUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C6F8F2B15247B007A3626 /* CardDeckSortProgUITestsLaunchTests.swift */; };
+		830C6F9D2B1526D6007A3626 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C6F9C2B1526D6007A3626 /* CardSelectionVC.swift */; };
+		830C6F9F2B16264D007A3626 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C6F9E2B16264D007A3626 /* CWButton.swift */; };
+		830C6FA12B163282007A3626 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C6FA02B163282007A3626 /* RulesVC.swift */; };
+		830C6FA32B163ACA007A3626 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C6FA22B163ACA007A3626 /* CardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +38,15 @@
 		830C6F692B15247A007A3626 /* CardDeckSortProg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardDeckSortProg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		830C6F6C2B15247A007A3626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		830C6F6E2B15247A007A3626 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		830C6F702B15247A007A3626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		830C6F732B15247A007A3626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		830C6F752B15247B007A3626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		830C6F782B15247B007A3626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		830C6F7A2B15247B007A3626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830C6F7F2B15247B007A3626 /* CardDeckSortProgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardDeckSortProgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		830C6F832B15247B007A3626 /* CardDeckSortProgTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeckSortProgTests.swift; sourceTree = "<group>"; };
 		830C6F892B15247B007A3626 /* CardDeckSortProgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardDeckSortProgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		830C6F8D2B15247B007A3626 /* CardDeckSortProgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeckSortProgUITests.swift; sourceTree = "<group>"; };
-		830C6F8F2B15247B007A3626 /* CardDeckSortProgUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeckSortProgUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		830C6F9C2B1526D6007A3626 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		830C6F9E2B16264D007A3626 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		830C6FA02B163282007A3626 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		830C6FA22B163ACA007A3626 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				830C6F6B2B15247A007A3626 /* CardDeckSortProg */,
-				830C6F822B15247B007A3626 /* CardDeckSortProgTests */,
-				830C6F8C2B15247B007A3626 /* CardDeckSortProgUITests */,
 				830C6F6A2B15247A007A3626 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,30 +97,15 @@
 			children = (
 				830C6F6C2B15247A007A3626 /* AppDelegate.swift */,
 				830C6F6E2B15247A007A3626 /* SceneDelegate.swift */,
-				830C6F702B15247A007A3626 /* ViewController.swift */,
-				830C6F722B15247A007A3626 /* Main.storyboard */,
 				830C6F752B15247B007A3626 /* Assets.xcassets */,
 				830C6F772B15247B007A3626 /* LaunchScreen.storyboard */,
 				830C6F7A2B15247B007A3626 /* Info.plist */,
+				830C6F9C2B1526D6007A3626 /* CardSelectionVC.swift */,
+				830C6F9E2B16264D007A3626 /* CWButton.swift */,
+				830C6FA02B163282007A3626 /* RulesVC.swift */,
+				830C6FA22B163ACA007A3626 /* CardDeck.swift */,
 			);
 			path = CardDeckSortProg;
-			sourceTree = "<group>";
-		};
-		830C6F822B15247B007A3626 /* CardDeckSortProgTests */ = {
-			isa = PBXGroup;
-			children = (
-				830C6F832B15247B007A3626 /* CardDeckSortProgTests.swift */,
-			);
-			path = CardDeckSortProgTests;
-			sourceTree = "<group>";
-		};
-		830C6F8C2B15247B007A3626 /* CardDeckSortProgUITests */ = {
-			isa = PBXGroup;
-			children = (
-				830C6F8D2B15247B007A3626 /* CardDeckSortProgUITests.swift */,
-				830C6F8F2B15247B007A3626 /* CardDeckSortProgUITestsLaunchTests.swift */,
-			);
-			path = CardDeckSortProgUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +214,6 @@
 			files = (
 				830C6F792B15247B007A3626 /* LaunchScreen.storyboard in Resources */,
 				830C6F762B15247B007A3626 /* Assets.xcassets in Resources */,
-				830C6F742B15247A007A3626 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830C6F712B15247A007A3626 /* ViewController.swift in Sources */,
+				830C6FA32B163ACA007A3626 /* CardDeck.swift in Sources */,
 				830C6F6D2B15247A007A3626 /* AppDelegate.swift in Sources */,
+				830C6FA12B163282007A3626 /* RulesVC.swift in Sources */,
 				830C6F6F2B15247A007A3626 /* SceneDelegate.swift in Sources */,
+				830C6F9D2B1526D6007A3626 /* CardSelectionVC.swift in Sources */,
+				830C6F9F2B16264D007A3626 /* CWButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830C6F842B15247B007A3626 /* CardDeckSortProgTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830C6F8E2B15247B007A3626 /* CardDeckSortProgUITests.swift in Sources */,
-				830C6F902B15247B007A3626 /* CardDeckSortProgUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +277,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		830C6F722B15247A007A3626 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				830C6F732B15247A007A3626 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		830C6F772B15247B007A3626 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +413,7 @@
 				INFOPLIST_FILE = CardDeckSortProg/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +440,7 @@
 				INFOPLIST_FILE = CardDeckSortProg/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
